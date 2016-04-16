@@ -64,7 +64,7 @@ class Lazy(object):
 
         self.buffer[arg] = BufferEntry(content, timeStamp)
 
-        #A new entry has been added, in order not to loose informating the buffer is saved right away
+        #A new entry has been added, in order not to lose informating the buffer is saved right away
         self.saveBuffer();
 
         return content
